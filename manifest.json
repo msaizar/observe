@@ -4,7 +4,7 @@
     "description": "Saca el soft paywall de El Observador",
     "content_scripts": [
         {
-            "matches": ["https://www.elobservador.com.uy/"],
+            "matches": ["https://www.elobservador.com.uy/nota/*"],
             "js": ["/observe.js"]
         }
     ],
